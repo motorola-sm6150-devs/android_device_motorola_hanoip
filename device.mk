@@ -29,8 +29,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
-    SecureElement \
-    NfcNci \
     Tag
 
 PRODUCT_COPY_FILES += \

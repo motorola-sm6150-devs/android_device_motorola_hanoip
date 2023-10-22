@@ -19,6 +19,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2460
 TARGET_SCREEN_WIDTH := 1080
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.mmi.overlay.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

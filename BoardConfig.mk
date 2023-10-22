@@ -15,5 +15,8 @@ TARGET_OTA_ASSERT_DEVICE := hanoip
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/hanoip_defconfig
+
 # Inherit from the proprietary version
 include vendor/motorola/hanoip/BoardConfigVendor.mk

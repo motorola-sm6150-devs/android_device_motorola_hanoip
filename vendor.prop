@@ -1,0 +1,26 @@
+# Audio
+persist.vendor.audio.calfile0=/vendor/etc/acdbdata/Bluetooth_cal.acdb
+persist.vendor.audio.calfile1=/vendor/etc/acdbdata/General_cal.acdb
+persist.vendor.audio.calfile2=/vendor/etc/acdbdata/Global_cal.acdb
+persist.vendor.audio.calfile3=/vendor/etc/acdbdata/Handset_cal.acdb
+persist.vendor.audio.calfile4=/vendor/etc/acdbdata/Hdmi_cal.acdb
+persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb
+persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
+persist.vendor.audio.calfile7=/vendor/etc/acdbdata/Codec_cal.acdb
+
+# Camera
+persist.vendor.camera.physical.num=5
+
+# Display
+persist.sys.sf.color_mode=0
+ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
+
+# Sensors
+ro.hardware.sensors=hanoip
+ro.vendor.sensors.mot_ltv=true
+ro.vendor.sensors.glance_approach=false
+ro.vendor.sensors.drop=true
+
+# SoC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM7150

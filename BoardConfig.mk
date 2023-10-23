@@ -25,6 +25,9 @@ TARGET_KERNEL_CONFIG := vendor/hanoip_defconfig
 TARGET_MODULE_ALIASES += \
     snd-soc-aw882xx.ko:snd_smartpa_aw882xx.ko
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 

@@ -21,6 +21,10 @@ TARGET_SCREEN_DENSITY := 400
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/hanoip_defconfig
 
+# Kernel modules - Audio
+TARGET_MODULE_ALIASES += \
+    snd-soc-aw882xx.ko:snd_smartpa_aw882xx.ko
+
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 

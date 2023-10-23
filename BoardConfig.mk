@@ -28,6 +28,9 @@ TARGET_MODULE_ALIASES += \
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
